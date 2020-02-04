@@ -2,67 +2,72 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<style>
-		body,
-		html {
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-
-		body {
-			background-color: rgb(242, 244, 248);
-      display: flex;
-
-		}
-
-		.card {
-			box-shadow: 1px 1px 20px #ddd9d9;
-			background: #FFFFFF;
-			border: none;
-			margin: auto;
-      min-height: 200px;
-      width:400px;
-      border-radius: 5px;
-      text-align:center;
-		}
-
-		.card .card-heading {
-      padding-top: 10px;
-			height: 35px;
-			background: #FFFFFF;
-			border-bottom: 0;
-      font-size: 30px;
-      font-family: Arial,san-serif;
-      font-weight:bold;
-      color: #7b7b7b;
-		}
-    .card .card-description{
-      margin-top:30px;
-      color: gray;
-    }
-    hr{
-      border: none;
-      border-bottom: 1px solid silver;
-    }
-	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: rgb(242, 244, 248);
+            display: flex;
+        }
+        
+        .card {
+            box-shadow: 1px 1px 20px #ddd9d9;
+            background: #FFFFFF;
+            border: none;
+            margin: auto;
+            min-height: 200px;
+            width: 400px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .card .card-heading {
+            padding-top: 10px;
+            height: 35px;
+            background: #FFFFFF;
+            border-bottom: 0;
+            font-size: 25px;
+            font-family: Arial, san-serif;
+            font-weight: bold;
+            color: #7b7b7b;
+            text-align: left;
+            padding-left: 20px;
+        }
+        
+        .card .card-description {
+            margin-top: 30px;
+            color: gray;
+            font-size: 15px;
+            font-family: Arial, san-serif;
+        }
+        
+        hr {
+            border: none;
+            border-bottom: 1px solid silver;
+        }
+    </style>
 </head>
 
 <body style="">
-	<div class="card">
-     <div class="card-heading">
-       Message
-     </div>
-     <hr>
-     <div class="card-description">
-       You request has successfully failed!
-     </div>
-	</div>
-	<script src="script.js">
-	</script>
+    <div class="card">
+        <div class="card-heading">
+            Success
+        </div>
+        <hr>
+        <div class="card-description">
+            You have successfully solved the captcha!
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>
